@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import ListMenuUtama from "./ListData/ListMenuUtama";
 
 export default class MenuUtama extends Component {
   render() {
     return (
       <div>
-        <p>Ini Halaman Menu Utama</p>
+        <ListMenuUtama link="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sate.png" />
       </div>
     );
   }
